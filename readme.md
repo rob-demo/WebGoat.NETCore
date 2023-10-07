@@ -1,4 +1,14 @@
 # WebGoat.NETCore
+Updates in this fork where specifically made for GitHub Advanced Security training purposes, for both on GitHub (GHAS) as well as Azure DevOps (GHAzDo). Here is a list of additions: 
+- Upgraded to .NET core 5.0
+- Upgraded GitHub workflows to most recent action versions
+- Added pipeline definition for Azure DevOps
+- Added secrets to appSettings.Development.json
+
+This results in GHAS/GHAzDo are that:
+- Vulnerable dependencies are detected
+- Code scanning detects vulnerability patters in the code
+- Secrets are found in the repo
 
 ## The next generation of the WebGoat example project to demonstrate OWASP TOP 10 vulnerabilities
 
