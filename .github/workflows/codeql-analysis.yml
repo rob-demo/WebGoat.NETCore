@@ -7,9 +7,10 @@ on:
 
 jobs:
   CodeQL-Build:
-
+    permissions:
+      contents: read
+      security-events: write
     runs-on: ubuntu-latest
-
     steps:
     # Get the code
     - name: Checkout repository
